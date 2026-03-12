@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab03</title>
+</head>
+<body>
+<div class="container">
+    <canvas id="fireworksCanvas" width="1000" height="600"></canvas>
+
+    <div class="controls">
+        <div class="control-group">
+            <div class="slider-label">
+                Grawitacja
+                <input type="range" id="gravitySlider" min="0.01" max="0.4" step="0.005" value="0.15">
+            </div>
+            <div class="slider-label">
+                Liczba cząstek
+                <input type="range" id="countSlider" min="20" max="300" step="5" value="120">
+            </div>
+        </div>
+        <div class="stats">
+            <span id="rocketCount">0</span><span id="particleCount">0</span>
+        </div>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
