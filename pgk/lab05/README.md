@@ -1,0 +1,1 @@
+wystarczy uruchomić main.py i działa
