@@ -1,0 +1,1 @@
+zawartość pliku generator_lasu.py skopiować do text editor w blenderze i uruchomić
